@@ -35,14 +35,15 @@ const ContactUs = () => {
 
                 <img className='h-full w-full object-cover brightness-50' src={BgImg} alt="" />
                 <div className='flex flex-col w-full text-white absolute items-center font-bold'>
-                    <div className='text-6xl'>Our Contacts Info</div>
-                    <div className='text-xl'>Home / Contacts</div>
+                    <div className='text-xl lg:text-6xl'>Our Contacts Info</div>
+                    <div className='text-xl lg:text-xl'>Home / Contacts</div>
                 </div>
 
             </section>
 
             <section className="py-16 bg-white">
-                <div className="max-w-7xl mx-auto px-4">
+
+                <div className="max-w-7xl mx-auto px-5 sm:px-10">
 
                     <h2 className="text-4xl font-bold text-gray-800  text-center">Contact Information</h2>
                     <p className="mt-4 text-lg text-gray-600  text-center">

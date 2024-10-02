@@ -71,7 +71,7 @@ const Header = () => {
             </header>
 
             {/* Mobile Header */}
-            <header className='bg-[#004AAD] flex justify-between items-center lg:mx-24 px-5 py-5 lg:hidden'>
+            <header className='bg-[#1F2A59] flex justify-between items-center lg:mx-24 px-5 py-5 lg:hidden'>
                 <RiMenu2Line onClick={handleOpen} size={30} className='text-white' />
                 <Link to='/cost-calculator' className='bg-[#F9A72B] text-white text-xl py-2 px-6 rounded-md'>
                     Calculate Cost

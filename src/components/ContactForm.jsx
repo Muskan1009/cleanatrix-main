@@ -3,10 +3,10 @@ import ContImg from '../assets/contact.webp'
 
 const ContactForm = () => {
     return (
-        <section className='flex h-max md:h-screen'>
-            <div className='bg-gradient-to-t from-[#312C2B] to-[#6D6C6D] p-12 xl:block hidden' />
 
-            <form className='w-full lg:w-[60%] xl:w-full flex flex-col gap-5 px-5 sm:px-10 md:px-20 py-10 bg-slate-100'>
+        <section className='flex flex-col xl:flex-row h-max'>
+
+            <form className='w-full xl:w-[50%] flex flex-col gap-5 px-5 sm:px-10 md:px-20 py-10 bg-slate-100'>
 
                 <div className='text-4xl font-bold '>
                     Contact Us
@@ -32,7 +32,8 @@ const ContactForm = () => {
 
             </form>
 
-            <img src={ContImg} alt="" className='lg:block hidden lg:w-[40%] object-cover' />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510201613!2d76.76357294611861!3d28.64428735586505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1727871355772!5m2!1sen!2sin" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className='xl:w-[50%] h-[40vh] xl:h-screen'></iframe>
+
         </section>
     )
 }
