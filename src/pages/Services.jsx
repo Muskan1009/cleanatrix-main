@@ -144,13 +144,11 @@ const Services = () => {
     return (
         <>
             <section className='xl:mx-0 flex h-[30vh] md:h-[50vh] xl:h-[60vh] relative justify-center items-center'>
-
                 <img className='h-full w-full object-cover brightness-50' src={Servimg} alt="" />
                 <div className='flex flex-col w-full text-white absolute items-center font-bold'>
                     <div className='text-xl lg:text-6xl'>About Our Services</div>
                     <div className='text-xl lg:text-xl'>Home / Services</div>
                 </div>
-
             </section>
 
             <section className='px-5 md:px-24 py-10 h-max flex flex-col justify-around'>
@@ -164,7 +162,6 @@ const Services = () => {
                     </p>
                 </div>
 
-
                 <div className='grid sm:grid-cols-2 xl:grid-cols-3 gap-5 md:gap-10'>
                     {
                         ServiceCards.map((data, index) => {
@@ -174,7 +171,6 @@ const Services = () => {
                         })
                     }
                 </div>
-
             </section>
 
             {/* <section className='xl:mx-24 flex flex-col'>

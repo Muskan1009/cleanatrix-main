@@ -111,6 +111,7 @@ const About = () => {
             "answer": "Absolutely! We can tailor our cleaning services to meet your specific needs and preferences."
         }
     ]
+    
     const [openIndex, setOpenIndex] = useState(null);
 
     const toggleFAQ = (index) => {
@@ -129,7 +130,6 @@ const About = () => {
                 </div>
 
             </section>
-
 
             <section className='bg-slate-400 h-max xl:h-screen py-10 px-5 flex flex-col gap-3 justify-around'>
 
@@ -156,7 +156,7 @@ const About = () => {
 
             </section>
             {/* Reasons Why Choose Us */}
-            <section className='px-5 lg:px-24 py-10 lg:py-20 h-max md:h-screen flex flex-col bg-[#EAF3FD] gap-10'>
+            <section className='px-5 lg:px-24 py-10 lg:py-20 h-max flex flex-col bg-[#EAF3FD] gap-10'>
                 <div className='text-center text-3xl xl:text-3xl font-bold'>
                     ✨Our Introduction✨
                 </div>
@@ -177,9 +177,9 @@ const About = () => {
                 </div>
             </section>
 
-            <section className='bg-slate-400 h-max md:h-screen py-10 flex flex-col gap-5 justify-around'>
+            <section className='bg-slate-400 h-max xl:h-screen py-10 flex flex-col gap-5 justify-around'>
 
-                <div className='text-white flex flex-col items-center gap-2 lg:gap-5'>
+                <div className='text-white flex flex-col items-center gap-2 lg:gap-2'>
                     <div className='text-6xl font-bold text-center'>Our best achievement</div>
                     <div className='text-xl md:text-2xl font-normal text-center'>We feel very proud for our great achievement</div>
                 </div>
@@ -203,11 +203,19 @@ const About = () => {
                 </div>
             </section>
 
-            <section className='bg-slate-100 h-max md:h-screen py-10 flex flex-col gap-5 justify-around'>
+            <section className='bg-slate-100 h-max xl:h-screen px-5 py-10 flex flex-col gap-5 justify-around'>
 
-                <h2 className='text-center text-4xl font-bold text-gray-800'>Meet Our Founders</h2>
+                <h2 className='text-center text-6xl font-bold text-gray-800'>Meet Our Founders</h2>
 
                 <div className='flex flex-wrap justify-center gap-8 mt-8 xl:mt-2'>
+                    {/* Patrick Georges */}
+                    <div className='bg-white shadow-lg rounded-lg p-6 w-full md:w-1/3 lg:w-1/4'>
+                        <img src={Patrik} alt='Patrick Georges' className='rounded-full h-32 w-32 mx-auto mb-4 object-cover' />
+                        <h3 className='text-center text-xl font-semibold text-gray-900'>Patrick Georges</h3>
+                        <p className='text-center text-gray-600 mt-2'>
+                            Patrick Georges, a co-founder of Cleanatrix, LLC, is dedicated to ensuring that every space we clean meets the highest standards of cleanliness and safety.
+                        </p>
+                    </div>
                     {/* Marc Georges */}
                     <div className='bg-white shadow-lg rounded-lg p-6 w-full md:w-1/3 lg:w-1/4'>
                         <img src={Marc} alt='Marc Georges' className='rounded-full h-32 w-32 mx-auto mb-4 bg-slate-200' />
@@ -224,15 +232,6 @@ const About = () => {
                             As co-founder of Cleanatrix, LLC, Elda Tislin brings passion and expertise to ensure client satisfaction with every cleaning project.
                         </p>
                     </div>
-                    {/* Patrick Georges */}
-                    <div className='bg-white shadow-lg rounded-lg p-6 w-full md:w-1/3 lg:w-1/4'>
-                        <img src={Patrik} alt='Patrick Georges' className='rounded-full h-32 w-32 mx-auto mb-4 object-cover' />
-                        <h3 className='text-center text-xl font-semibold text-gray-900'>Patrick Georges</h3>
-                        <p className='text-center text-gray-600 mt-2'>
-                            Patrick Georges, a co-founder of Cleanatrix, LLC, is dedicated to ensuring that every space we clean meets the highest standards of cleanliness and safety.
-                        </p>
-                    </div>
-
                 </div>
             </section>
 

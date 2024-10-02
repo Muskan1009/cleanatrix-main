@@ -62,7 +62,7 @@ const Footer = () => {
                     link: '/privacy'
                 },
                 {
-                    name: 'Terms & Conditions',
+                    name: 'Terms of Services',
                     link: '/terms'
                 }
             ]
