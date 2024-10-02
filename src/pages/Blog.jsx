@@ -15,7 +15,7 @@ const Blog = () => {
       <div className="container mx-auto flex flex-col items-center">
       <h2 className="text-4xl font-bold text-gray-800 text-center">Our Blogs</h2>
             <p className="md:w-1/2 mt-4 text-lg text-gray-600 text-center mb-10">
-                Discover the latest tips, trends, and updates in the world of professional cleaning with Cleanupia’s expert blog posts.
+                Discover the latest tips, trends, and updates in the world of professional cleaning with our experts at Cleanatrix.
             </p>
         <div className="px-5 md:px-10 lg:px-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {blogs.map((blog) => (
