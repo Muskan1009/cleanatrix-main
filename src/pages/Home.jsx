@@ -105,7 +105,7 @@ const Home = () => {
 
                         <div className='flex flex-row md:flex-col lg:flex-row xl:items-center gap-5 text-white font-semibold text-center'>
                             <Link to='/cost-calculator' className='bg-[#F7931E] px-3 lg:px-5 py-3 rounded-md'>
-                                Discover Cost
+                                Book Now
                             </Link>
                             <Link to='/services' className='bg-[#8CC63F] px-4 lg:px-7 py-3 rounded-lg'>
                                 Our Services
