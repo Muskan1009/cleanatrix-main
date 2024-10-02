@@ -20,7 +20,7 @@ const Header = () => {
         },
         {
             name: 'Blog',
-            link: 'https://cleanatrix.blogspot.com/'
+            link: '/blog'
         },
         {
             name: 'Contact Us',
